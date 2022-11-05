@@ -71,20 +71,27 @@ main aside > h1 {
 font-size: 1em;
 }
 aside {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    padding: 8px 30px;
-    color: #000;
-    text-align: justify;
+background-color: #c4539ec9;
+border-radius: 6px;
+    padding-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+    margin: 20px;
 }
-ol > li {
-    font-size: 1.5em;
-    padding-left: 10px;
+aside h1{
+    background-color: #d32886e8;
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+    padding: 6px;
+    margin: -10px;
 }
-ul > li {
-    font-size: 1.5em;
+aside > ul{
+    list-style: inside;
+    columns: 1;
+    padding-top: 10px;
 }
+
+
 a {
     text-decoration: none;
     color:rgb(212, 29, 90) ;
