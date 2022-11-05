@@ -56,7 +56,7 @@ main section {
     text-align: justify;
     text-indent: 30px;
     padding: 8px 30px;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: #000;
     text-align: justify;
     
@@ -67,15 +67,15 @@ main img {
     padding-left: 10%;
 }
 
-main article > h1 {
+main aside > h1 {
 font-size: 1em;
 }
-article {
+aside {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     padding: 8px 30px;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: #000;
     text-align: justify;
 }
