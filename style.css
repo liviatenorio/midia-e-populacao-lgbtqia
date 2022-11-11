@@ -72,9 +72,10 @@ text-decoration: underline;
 
 div {
 text-align: center;
-padding-bottom: 40px;
-padding-top: 40px;
-width: 50%;
+padding-bottom: 30px;
+padding-top: 30px;
+background-position: center;
+
 }
 img {
 margin: auto;
