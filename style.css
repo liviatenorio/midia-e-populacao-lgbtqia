@@ -1,102 +1,82 @@
-    @charset "UTF-8";
-    @font-face {
-        font-family: 'THEBOLDFONT';
-        src: url('fontes/THEBOLDFONT.ttf') format('truetype');
+@charset "UTF-8";
+@font-face {
+font-family: 'THEBOLDFONT';
+src: url('fontes/THEBOLDFONT.ttf') format('truetype');
     
-    }
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
+}
+*{
+margin: 0px;
+padding: 0px;
+}
     
-    body {
-        background-image: url('imagens/arco\ iris.jpg');
+body {
+background-image: url('imagens/arco\ iris.jpg');
     
 
     
-    }
+}
 
-    header {
-        background: linear-gradient(to right, rgba(255, 0, 0, 0.747), orange, yellow,
-        rgba(7, 116, 7, 0.637), rgba(128, 0, 128, 0.664));
-     font-size: 1.2em;
+header {
+background: linear-gradient(to right, rgba(255, 0, 0, 0.747), orange, yellow,
+rgba(7, 116, 7, 0.637), rgba(128, 0, 128, 0.664));
+font-size: 1.2em;
 text-align: center;
 padding-top: 20px;
 padding-bottom: 30px;
 }
 
-        header > h1 {
-    font-family: 'THEBOLDFONT';
-    padding: 20px;
-    font-size: 3em;
-    color: #fff;
-    text-shadow: 2px 2px 0px #000000af ;
-    
-        }
+header > h1 {
+font-family: 'THEBOLDFONT';
+padding: 20px;
+font-size: 3em;
+color: #fff;
+text-shadow: 2px 2px 0px #000000af ;
+}
 
-    main { 
-    background-color: #f3f9fc;
-    min-width: 300px;
-    max-width: 1100px;
-    margin: auto;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.212);
+main { 
+background-color: #f3f9fc;
+min-width: 300px;
+max-width: 1100px;
+margin: auto;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.212);
     }
     
 main h1 {
-    font-family: 'THEBOLDFONT';
-    font-size: 2em;
-    padding-top: 15px;
-    padding: 20px;
+font-family: 'THEBOLDFONT';
+font-size: 2em;
+padding-top: 15px;
+padding: 20px;
 }
 
 main section {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    padding: 8px 30px;
-    font-size: 1.5em;
-    color: #000;
-    text-align: justify;
+margin: 15px 0px;
+text-align: justify;
+text-indent: 30px;
+padding: 8px 30px;
+font-size: 1.5em;
+color: #000;
+text-align: justify;
     
 }
 
-main img {
-    width: 30%;
-    padding-left: 10%;
-}
-
-main aside > h1 {
-font-size: 1em;
-}
-aside {
-background-color: #c4539ec9;
-border-radius: 6px;
-    padding-top: 0px;
-padding-left: 10px;
-padding-right: 10px;
-    margin: 20px;
-}
-aside h1{
-    background-color: #d32886e8;
-    color: #fff;
-    border-radius: 6px 6px 0px 0px;
-    padding: 6px;
-    margin: -10px;
-}
-aside > ul{
-    list-style: inside;
-    columns: 1;
-    padding-top: 10px;
-}
-
-
 a {
-    text-decoration: none;
-    color:rgb(212, 29, 90) ;
+text-decoration: none;
+color:rgb(212, 29, 90) ;
 } 
 
 a:hover {
-    text-decoration: underline;
+text-decoration: underline;
+}
+
+div {
+text-align: center;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+img {
+margin: auto;
+display: block;
+width: 60%;
 }
