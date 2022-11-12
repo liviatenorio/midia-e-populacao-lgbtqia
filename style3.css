@@ -1,0 +1,37 @@
+@charset "UTF-B";
+@font-face {
+    font-family: 'THEBOLDFONT';
+    src: url('fontes/THEBOLDFONT.ttf') format('truetype');
+}
+
+body {
+    background-image: linear-gradient(to 
+    right, #EB4501, #F0915D, #fff, #FF6BBD, #A80D60);
+}
+
+header {
+    font-family: 'THEBOLDFONT' ;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000000af;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+div.video {
+    left: 470px;
+    margin: auto;
+    width: 50vh;
+   
+}
+
+p { 
+    font-size: 1em;
+    text-align: center;
+}
