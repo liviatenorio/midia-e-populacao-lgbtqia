@@ -60,8 +60,12 @@ color: #000;
 text-align: justify;
     
 }
+p {
+line-height: 2rem;
+}
 
 a {
+    font-size: smaller;
 text-decoration: none;
 color:rgb(212, 29, 90) ;
 } 
@@ -82,4 +86,45 @@ margin: auto;
 display: block;
 width: 60%;
 
+}
+figure {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+figcaption {
+    color: rgba(230, 22, 119, 0.904);
+    text-align: center;
+    font-size:smaller;
+}
+
+h2 {
+    font-family: 'THEBOLDFONT';
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.747), orange, yellow,
+    rgba(7, 116, 7, 0.637), rgba(128, 0, 128, 0.664), transparent);
+}
+
+main h2{
+
+    margin: 20px;
+}
+
+h2.lesbica {
+    font-family: 'THEBOLDFONT';
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+    background-image:linear-gradient(to 
+    right, #EB4501, #F0915D, #FF6BBD, #A80D60, transparent);
+}
+
+h2.trans {
+    font-family: 'THEBOLDFONT';
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(0, 183, 255), pink, pink, rgb(0, 183, 255), transparent);
 }
