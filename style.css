@@ -33,6 +33,12 @@ color: #fff;
 text-shadow: 2px 2px 0px #000000af ;
 }
 
+header p {
+color: #fff;
+text-shadow: 1px 1px 0px #000000;
+font-size: 22px;
+}
+
 main { 
 background-color: #f3f9fc;
 min-width: 300px;
@@ -127,4 +133,14 @@ h2.trans {
     text-align: left;
     color: #fff;
     background-image: linear-gradient(to right, rgb(0, 183, 255), pink, pink, rgb(0, 183, 255), transparent);
+}
+footer {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.747), orange, yellow,
+    rgba(7, 116, 7, 0.637), rgba(128, 0, 128, 0.664), transparent);
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 0px #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
